@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Mochiy+Pop+P+One&family=Roboto+Mono:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    text-transform: capitalize !important;
+    outline: none !important;
+    box-shadow: none !important;
+    font-family: 'Alata', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+    background-color: rgba(255, 255, 255, 0.897);
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #97b1e7 !important;
+    outline: 1px solid slategrey;
+}
+
+body{
+    background: url("../img/pexels-arthouse-studio-4338020.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.header {
+    height: 100vh;
+    position: relative;
+}
+.innerData {
+    height: auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    margin-top: 100px!important;
+  
+}
+.innerData h3 {
+    font-family: 'Mochiy Pop P One',
+    sans-serif;
+    color: wheat;
+    line-height: 1.5;
+}
+
+.innerData h4 {
+    font-family: 'Roboto Mono',
+    monospace;
+    color: wheat;
+    line-height: 1.5;
+}
+
+.innerData input,
+.sub,
+.innerData input:focus,
+.sub:focus {
+    background-color: transparent;
+    color: wheat;
+    font-size: 15px!important;
+    border: 1px solid #5C6466;
+    font-family: 'Roboto Mono', monospace;
+}
+.innerData input::placeholder {
+    color: wheat;
+    font-size: 15px!important; 
+    font-family: 'Roboto Mono', monospace;
+}
+.text{
+color: wheat;
+}
+.text span {
+    font-family: 'Karla',
+    sans-serif;
+    font-weight: bolder;
+}
+
+.text span:first-child {
+    color:#D16BA5;
+}
+.text span:nth-child(2) {
+    color: #86A8E7;
+}
+.text span:last-child {
+    color: #5FFBF1;
+}
+
+.sub:hover {
+cursor: pointer;
+background-color:#5C6466;
+;
+transition: 0.5s;    
+}
